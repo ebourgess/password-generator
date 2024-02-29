@@ -56,6 +56,10 @@ pass-generator --length 8 --digits --lower --special --upper
 
 While the length has a default value and not required here, **At least ONE of the other 4 is required to generate the password/secret phrase**
 
+## Test your new password
+
+In order to test your password's strength, copy and paste it [here](https://www.security.org/how-secure-is-my-password/)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
