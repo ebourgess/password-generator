@@ -39,22 +39,22 @@ pass-generator -h
     --digits
         Use digits
     --length int
-        Password length (default 8)
+        Password length (default 12)
     --lower
-        Use lowercase letters
+        Use lowercase letters (default true)
     --special
         Use special characters
     --upper
-        Use uppercase letters
+        Use uppercase letters (default true)
 ```
 
 In order to use this simply run the command
 
 ```shell
-pass-generator --length 8 --digits --lower --special --upper
+pass-generator --length 32 --digits --lower --special --upper
 ```
 
-While the length has a default value and not required here, **At least ONE of the other 4 is required to generate the password/secret phrase**
+Keep in mind that by default, `length` is 12, `lower` and `upper` are both enabled. So if you need to add `digits` or `special` characters, you will need to add the flags `special` and `upper` to your command.
 
 ## Test your new password
 
