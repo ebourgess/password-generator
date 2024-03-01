@@ -8,9 +8,9 @@ import (
 )
 
 var (
-	length     = flag.Int("length", 8, "Password length")
-	useLower   = flag.Bool("lower", false, "Use lowercase letters")
-	useUpper   = flag.Bool("upper", false, "Use uppercase letters")
+	length     = flag.Int("length", 12, "Password length")
+	useLower   = flag.Bool("lower", true, "Use lowercase letters")
+	useUpper   = flag.Bool("upper", true, "Use uppercase letters")
 	useDigits  = flag.Bool("digits", false, "Use digits")
 	useSpecial = flag.Bool("special", false, "Use special characters")
 )
