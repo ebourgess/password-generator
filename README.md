@@ -2,6 +2,8 @@
 
 A simple password generator written in Go.
 
+As Posted on [ebourgess.dev](https://ebourgess.dev/posts/creating-a-password-generator/)
+
 ## Description
 
 This script generates random passwords based on user-defined criteria such as length and character types.
